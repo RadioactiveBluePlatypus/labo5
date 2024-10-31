@@ -1,0 +1,35 @@
+.puzzle{
+    display: flex;
+    width: 500px;
+    flex-flow: row wrap;
+}
+
+#piece6{
+    order:1;
+}
+#piece8{
+    order:2;
+}
+#piece5{
+    order:3;
+}
+#piece9{
+    order:4;
+}
+#piece3{
+    order:5;
+}
+#piece1{
+    order:6;
+}
+#piece2{
+    order:7;
+}
+#piece4{
+    order:8;
+}
+#piece7{
+    order:9;
+}
+
+/*685931247*/

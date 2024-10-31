@@ -1,0 +1,45 @@
+.puzzle{
+    display: flex;
+    width:900px;
+    flex-flow: row wrap;
+}
+
+/*#piece02{
+    grid-template-columns: 
+    repeat(1, 300px);
+    aalgkjbkagehlargnbkljsrgnjlsdgbhkjlaghbkjeaglbgal ???????????????????????????????????????? 
+}
+JE COMPRENDS RIEN*/
+
+#piece01{
+    order:1;
+}
+#piece02{
+    order:2;
+}
+#piece04{
+    order:3;
+}
+#piece05{
+    order:4;
+}
+#piece06{
+    order:5;
+}
+#piece07{
+    order:6;
+}
+#piece08{
+    order:7;
+}
+#piece09{
+    order:8;
+}
+#piece10{
+    order:9;
+}
+#piece03{
+    order:10;
+}
+
+/*1245679*/
