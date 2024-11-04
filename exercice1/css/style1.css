@@ -1,7 +1,6 @@
 .puzzle{
-    display: flex;
-    width: 500px;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
 }
 
 #piece6{

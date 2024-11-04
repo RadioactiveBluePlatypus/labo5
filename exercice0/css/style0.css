@@ -1,7 +1,7 @@
 #conteneur1{
-    display: flex;
     width: 600px;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #conteneur1 > *{
@@ -24,9 +24,9 @@
 
 
 #conteneur2{
-    display: flex;
     width: 600px;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
 }
 
 #conteneur2 > *{
@@ -43,29 +43,15 @@
     background-color: rgb(255 192 204);
 }
 
-#conteneur2 >*:nth-child(3n+1)
-{
-    flex: 0 0 98px;   
-}
-#conteneur2 >*:nth-child(3n+2)
-{
-    flex: 0 0 198px;   
-}
-#conteneur2 >*:nth-child(3n+3)
-{
-    flex: 0 0 298px;   
-}
-
 
 
 
 
 #conteneur3{
-    display: flex;
-    width: 597px;
-    flex-flow: row wrap;
-    border: 1px solid black;
-    padding: 1px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
 }
 
 #conteneur3 > *{
@@ -83,17 +69,4 @@
 
 #conteneur3 > *:nth-child(odd){
     background-color: rgb(255 192 204);
-}
-
-#conteneur3 >*:nth-child(3n+1)
-{
-    flex: 0 0 95px;   
-}
-#conteneur3 >*:nth-child(3n+2)
-{
-    flex: 0 0 195px;   
-}
-#conteneur3 >*:nth-child(3n+3)
-{
-    flex: 0 0 295px;   
 }
