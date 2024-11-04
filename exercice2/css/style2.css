@@ -1,45 +1,24 @@
 .puzzle{
-    display: flex;
-    width:900px;
-    flex-flow: row wrap;
+    display: grid;
+    /*grid-template-columns: 500px 250px 250px 250px 500px 250px;*/
+    grid-template: 
+    "piece01 piece01 piece02 piece03"
+    "piece04 piece05 piece05 piece03"
+    "piece06 piece07 piece08 piece08"
+    "piece06 piece09 piece09 piece00";
+    
+    
+    /*grid-template-areas: 
+    "piece01 piece01 piece02 piece03"
+    "piece04 piece05 piece05 piece03"
+    "piece06 piece07 piece08 piece08"
+    "piece06 piece09 piece09 piece00"
+    ;*/
 }
 
-/*#piece02{
-    grid-template-columns: 
-    repeat(1, 300px);
-    aalgkjbkagehlargnbkljsrgnjlsdgbhkjlaghbkjeaglbgal ???????????????????????????????????????? 
-}
-JE COMPRENDS RIEN*/
-
-#piece01{
-    order:1;
-}
-#piece02{
-    order:2;
-}
-#piece04{
-    order:3;
-}
-#piece05{
-    order:4;
-}
-#piece06{
-    order:5;
-}
-#piece07{
-    order:6;
-}
-#piece08{
-    order:7;
-}
-#piece09{
-    order:8;
-}
-#piece10{
-    order:9;
-}
-#piece03{
-    order:10;
-}
-
-/*1245679*/
+/*
+o Vous devez utliser des sélecteurs d'identifiant
+o Vous devez utliser la fonction "repeat" pour définir les tailles de colonnes et rangées en pixels.
+o Vous devez utliser la propriété grid-template-areas pour bien placer vos morceaux dans la grille.
+o Les pièces sont déjà dans le bon ordre mais on doit les répartir sur plusieurs cellules.
+*/
